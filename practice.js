@@ -83,3 +83,44 @@ textBtn.addEventListener("click", function () {
     document.body.appendChild(container);
 });
 */
+
+/*
+let cart = document.createElement("div");
+cart.id = "cart";
+document.body.appendChild(cart);
+
+let appleBtn = document.createElement("button");
+appleBtn.innerText = "Apple";
+document.body.appendChild(appleBtn);
+
+let tomBtn = document.createElement("button");
+tomBtn.innerText = "Tomato";
+document.body.appendChild(tomBtn);
+
+let eggBtn = document.createElement("button");
+eggBtn.innerText = "Eggs";
+document.body.appendChild(eggBtn);
+
+let clearBtn = document.createElement("button");
+clearBtn.innerText = "Clear";
+document.body.appendChild(clearBtn);
+
+appleBtn.addEventListener("click", function (food) {
+    let appContainer = document.createElement("div");
+    appContainer.innerText = food;
+    cart.appendChild(appContainer);
+})
+
+clearBtn.addEventListener("click", function () {
+    cart.innerHTML = "";
+});
+*/
+
+// or the simpler way is to create onclick event handler and using HTML buttons then creating function with a parameter "foodItem"
+
+/* function btnClick (foodItem) {
+
+}
+*/
+
+
